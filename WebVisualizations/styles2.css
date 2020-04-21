@@ -1,0 +1,51 @@
+body {
+    background: linen;
+  }
+  
+.h1 {
+    color: rgb(14, 13, 13);
+    margin-left: 40px;
+  }
+
+.h2 {
+    color: rgb(14, 13, 13);
+    margin-left: 40px;
+  }
+
+.P {
+    color: rgb(14, 13, 13);
+    text-align: justify;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+    }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create 2 equal columns that sits next to each other */
+/* Reference https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+/* Responsive layout - makes a two column-layout */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
