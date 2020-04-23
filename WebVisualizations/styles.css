@@ -22,6 +22,35 @@ img {
     height: auto;
     }
 
+  .topnav {
+      overflow: hidden;
+      background-color: #ddd;
+    }
+    
+  .topnav a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+  .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+  .topnav a.active {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav-right {
+      float: right;
+    }
+ 
+
 @media (max-width: 600px) {
     .h1 {
         color: rgb(14, 13, 13);
