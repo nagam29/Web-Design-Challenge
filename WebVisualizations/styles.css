@@ -46,9 +46,9 @@ img {
       color: black;
     }
     
-    .topnav-right {
+    /* .topnav-right {
       float: right;
-    }
+    } */
  
 
 @media (max-width: 600px) {
